@@ -95,3 +95,5 @@ initial
 initial
 $monitor("Values of clock=%b, resetn=%b, write_enb=%b, read_enb=%b, lfd_state=%b, soft_reset=%b, data_in=%b, full=%b, empty=%b, data_out=%b", clock, resetn, write_enb, read_enb, lfd_state, soft_reset, data_in,full, empty, data_out);
 endmodule
+
+// Verified router fifo
